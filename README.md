@@ -1,25 +1,51 @@
-# 🍴MLFork: Bearing fault diagnosis via Mamba-powered few-shot learning model with multi-level architecture enhanced by spatial-wise and channel-wise local vector attention
+# 🍴 MLFork: Bearing Fault Diagnosis via a Mamba-Powered Few-Shot Learning Model with Multi-Level Architecture and Local Vector Attention
 
-[Link to paper](https://doi.org/10.1016/j.neucom.2025.131518
+📄 **Paper:** https://doi.org/10.1016/j.neucom.2025.131518
 
-Main Model
-![plot](images/model.png)
+---
 
-Feature Extractor
-![plot](images/bcvss.png)
-![plot](images/safe.png)
+## 🧠 Model Overview
 
-Vector Attention
-![plot](images/psva.png)
-![plot](images/pcva.png)
+### 1. Main Architecture
+![Main Model](images/model.png)
 
-## Prerequisites
-- Python 3
-- Linux
-- Pytorch 0.4+
-- GPU + CUDA CuDNN
-## Dataset
-In this paper, we utilize 2 datasets: [CWRU](https://engineering.case.edu/bearingdatacenter) and [PU](https://mb.uni-paderborn.de/kat/forschung/kat-datacenter/bearing-datacenter/data-sets-and-download). 
+### 2. Feature Extractor Modules
+![BCVSS](images/bcvss.png)
+![SAFE](images/safe.png)
+
+### 3. Vector Attention Modules
+![PSVA](images/psva.png)
+![PCVA](images/pcva.png)
+
+---
+
+## ⚙️ Requirements
+
+- Python ≥ 3.8  
+- Linux OS  
+- PyTorch ≥ 0.4  
+- NVIDIA GPU with CUDA + cuDNN  
+
+---
+
+## 📊 Datasets
+
+This work evaluates performance on two benchmark bearing fault datasets:
+
+- **CWRU** — Case Western Reserve University Bearing Dataset  
+  https://engineering.case.edu/bearingdatacenter  
+
+- **PU** — Paderborn University Bearing Dataset  
+  https://mb.uni-paderborn.de/kat/forschung/kat-datacenter/bearing-datacenter/data-sets-and-download  
+
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
+```bash
+git clone https://github.com/thzhere/MLFork.git
+cd MLFork
 
 ## Getting Started
 - Installation
@@ -45,7 +71,7 @@ python test_5shot.py --dataset 'CWRU' --best_weight 'PATH TO BEST WEIGHT'
 - Result
 1. CWRU dataset
 ![plot](images/cwru.png)
-1. PU dataset
+2. PU dataset
 ![plot](images/pu.png)
 
 ## Contact
