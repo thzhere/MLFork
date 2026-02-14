@@ -1,8 +1,17 @@
-# MLFork: Bearing fault diagnosis via Mamba-powered few-shot learning model with multi-level architecture enhanced by spatial-wise and channel-wise local vector attention
+# 🍴MLFork: Bearing fault diagnosis via Mamba-powered few-shot learning model with multi-level architecture enhanced by spatial-wise and channel-wise local vector attention
 
-[Link to paper](https://doi.org/10.1016/j.neucom.2025.131518)
+[Link to paper](https://doi.org/10.1016/j.neucom.2025.131518
 
+Main Model
 ![plot](images/model.png)
+
+Feature Extractor
+![plot](images/bcvss.png)
+![plot](images/safe.png)
+
+Vector Attention
+![plot](images/psva.png)
+![plot](images/pcva.png)
 
 ## Prerequisites
 - Python 3
