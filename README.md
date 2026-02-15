@@ -1,6 +1,8 @@
 # 🍴 MLFork: Bearing Fault Diagnosis via a Mamba-Powered Few-Shot Learning Model with Multi-Level Architecture and Local Vector Attention
 
 📄 **Paper:** https://doi.org/10.1016/j.neucom.2025.131518
+        
+        
 
 ---
 
@@ -81,7 +83,7 @@ If you feel this code is useful, please give us 1 ⭐ and cite our paper.
 ```bash
 @article{nguyen2025mlfork,
   title={MLFork: Bearing fault diagnosis via Mamba-powered few-shot learning model with multi-level architecture enhanced by spatial-wise and channel-wise local vector attention},
-  author={Nguyen, Duy-Thai and Tran, Thi-Thao and Pham, Van-Truong and others},
+  author={Nguyen, Duy-Thai and Nguyen, Van-Quoc-Viet and  Tran, Thi-Thao and Pham, Van-Truong},
   journal={Neurocomputing},
   pages={131518},
   year={2025},
